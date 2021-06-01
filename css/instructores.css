@@ -1,0 +1,29 @@
+#instructores {
+  background: #333;
+  color: #fff;
+  text-align: center;
+}
+#instructores .contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.instru {
+  margin: 20px;
+}
+.instru img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 7px solid #fff;
+}
+@media (min-width: 480px) {
+  .instru {
+    width: 40%;
+  }
+}
+@media (min-width: 1024px) {
+  .instru {
+    width: auto;
+  }
+}
